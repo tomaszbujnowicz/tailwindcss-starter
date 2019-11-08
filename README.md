@@ -1,4 +1,6 @@
-# 🚀 Minimal Boilerplate for building static pages / Laravel Mix / TailwindCSS with PurgeCSS
+# Minimal Boilerplate for building static pages
+
+## 🚀Laravel Mix / TailwindCSS with PurgeCSS
 
 ## Usage
 
@@ -13,7 +15,7 @@ Clone this repository and run
 - `yarn` or `npm install` to install dependencies
 
 ### Tasks
-| Task Name | Description | Environment |
+| Task Name | Description
 | :------------- | :------------- | :------------- |
 | `yarn dev` or `npm run dev` | Run all Mix tasks
 | `yarn watch` or `npm run watch` | Run all Mix tasks and watch all relevant files for changes
