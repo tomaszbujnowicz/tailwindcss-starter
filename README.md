@@ -18,7 +18,7 @@ Clone this repository and run
 | `yarn dev` or `npm run dev` | Run all Mix tasks
 | `yarn watch` or `npm run watch` | Run all Mix tasks and watch all relevant files for changes
 | `yarn hot` or `npm run hot` | Hot module replacement
-| `yarn prodt` or `npm run prod` | Run all Mix tasks and minify output
+| `yarn prod` or `npm run prod` | Run all Mix tasks and minify output
 
 ## Copyright and license
 
