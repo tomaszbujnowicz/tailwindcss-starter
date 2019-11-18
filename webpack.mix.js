@@ -3,7 +3,6 @@ const tailwindcss = require('tailwindcss');
 const purgecss = require('laravel-mix-purgecss');
 
 mix
-  // .disableNotifications()
   .js('./src/js/app.js', './dist/js/')
   .postCss('./src/css/style.css', './dist/css/style.css', [
     tailwindcss('./tailwind.config.js'),
@@ -20,12 +19,12 @@ mix
 
 if (mix.inProduction()) {
   mix
-  .purgeCss({
-    folders: ['src'],
-  })
-  .options({
-    cssNano: {
-      // discardComments: {removeAll: true},
-    }
-  });
-}  
+    .purgeCss({
+      folders: ['src'],
+    })
+    .options({
+      cssNano: {
+        // discardComments: {removeAll: true},
+      }
+    });
+}
