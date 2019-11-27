@@ -3,7 +3,7 @@
 
 /* Component */
 @import 'tailwindcss/components';
-@import 'component/component.css';
+@import 'components/component.css';
 
 /* Utilities */
 @import 'tailwindcss/utilities';
