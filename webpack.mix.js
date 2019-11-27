@@ -1,11 +1,13 @@
 const mix = require('laravel-mix');
-const tailwindcss = require('tailwindcss');
 const purgecss = require('laravel-mix-purgecss');
 
 mix
   .js('./src/js/app.js', './dist/js/')
   .postCss('./src/css/style.css', './dist/css/style.css', [
-    tailwindcss('./tailwind.config.js'),
+    require('postcss-import'),
+    require('tailwindcss')('./tailwind.config.js'),   
+    require('postcss-nested'),
+    require('postcss-preset-env')
   ])
   .copy('src/*.html', 'dist')
   .copyDirectory('src/img', 'dist/img')
