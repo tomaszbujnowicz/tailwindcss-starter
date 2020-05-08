@@ -1,5 +1,4 @@
 const mix = require('laravel-mix');
-const purgecss = require('laravel-mix-purgecss');
 
 mix
   .js('./src/js/app.js', './dist/js/')
@@ -21,9 +20,6 @@ mix
 
 if (mix.inProduction()) {
   mix
-    .purgeCss({
-      folders: ['src'],
-    })
     .options({
       cssNano: {
         // discardComments: {removeAll: true},
