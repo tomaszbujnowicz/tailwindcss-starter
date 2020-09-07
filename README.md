@@ -23,4 +23,4 @@ Clone this repository and run
 
 ## Copyright and license
 
-Copyright 2019 Tomasz Bujnowicz under the [MIT license](http://opensource.org/licenses/MIT).
+Copyright 2020 Tomasz Bujnowicz under the [MIT license](http://opensource.org/licenses/MIT).
