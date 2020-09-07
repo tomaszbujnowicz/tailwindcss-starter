@@ -20,14 +20,14 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.12",
     "browser-sync-webpack-plugin": "^2.2.2",
     "cross-env": "^7.0.2",
-    "laravel-mix": "^5.0.4",
+    "laravel-mix": "^5.0.5",
     "postcss-import": "^12.0.1",
-    "postcss-nested": "^4.2.1",
+    "postcss-nested": "^4.2.3",
     "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^1.4.5",
-    "vue-template-compiler": "^2.6.11"
+    "tailwindcss": "^1.8.4",
+    "vue-template-compiler": "^2.6.12"
   }
 }
