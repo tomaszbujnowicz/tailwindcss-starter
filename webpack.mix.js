@@ -1,10 +1,11 @@
 const mix = require('laravel-mix');
+require('laravel-mix-eslint');
 
 mix
-  .js('./src/js/app.js', './dist/js/')
+  .js('./src/js/app.js', './dist/js').eslint()
   .postCss('./src/css/style.css', './dist/css/style.css', [
     require('postcss-import'),
-    require('tailwindcss')('./tailwind.config.js'),   
+    require('tailwindcss')('./tailwind.config.js'),
     require('postcss-nested'),
     require('postcss-preset-env')
   ])
