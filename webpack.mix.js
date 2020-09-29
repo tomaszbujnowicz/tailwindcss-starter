@@ -18,6 +18,12 @@ mix
       'dist/**/*.{css,js,html,php}',
     ]
   })
+  .options({
+    processCssUrls: false,
+    terser: {
+      extractComments: false, // Stop Mix from generating license file
+    }
+  })
 
 if (mix.inProduction()) {
   mix
