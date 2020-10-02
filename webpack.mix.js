@@ -6,8 +6,12 @@ mix
   .postCss('./src/css/style.css', './dist/css/style.css', [
     require('postcss-import'),
     require('tailwindcss')('./tailwind.config.js'),
-    require('postcss-nested'),
-    require('postcss-preset-env')
+    require('postcss-preset-env')({
+      features: {
+        // enable nesting
+        'nesting-rules': true,
+      },
+    })
   ])
   .copy('src/*.html', 'dist')
   .copyDirectory('src/img', 'dist/img')
