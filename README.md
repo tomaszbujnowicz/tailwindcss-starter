@@ -15,11 +15,11 @@ Clone this repository and run
 ### Tasks
 | Task Name | Description
 | :------------- | :------------- |
-| `yarn dev` or `npm run dev` | Run all Mix tasks
-| `yarn watch` or `npm run watch` | Run all Mix tasks and watch all relevant files for changes (assets minified)
-| `yarn watch:dev` or `npm run watch:dev` | Run all Mix tasks and watch all relevant files for changes (assets unminified)
-| `yarn hot` or `npm run hot` | Hot module replacement
-| `yarn production` or `npm run production` | Run all Mix tasks and minify output
+| `yarn dev` | Run all Mix tasks
+| `yarn watch` | Run all Mix tasks and watch all relevant files for changes (assets minified)
+| `yarn watch:dev` | Run all Mix tasks and watch all relevant files for changes (assets unminified)
+| `yarn hot` | Hot module replacement
+| `yarn production` | Run all Mix tasks and minify output
 
 ## Copyright and license
 
