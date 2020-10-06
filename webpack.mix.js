@@ -19,7 +19,7 @@ mix
     proxy: false,
     server: 'dist',
     files: [
-      'dist/**/*.{css,js,html,php}',
+      'dist/**/*.{css,js,html,php,jpg,jpeg,png,gif,svg}',
     ]
   })
   .options({
