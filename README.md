@@ -22,5 +22,4 @@ Clone this repository and run
 | `yarn production` | Run all Mix tasks and minify output
 
 ## Copyright and license
-
 Copyright 2020 Tomasz Bujnowicz under the [MIT license](http://opensource.org/licenses/MIT).
