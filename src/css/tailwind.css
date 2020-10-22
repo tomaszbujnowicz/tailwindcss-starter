@@ -1,0 +1,12 @@
+/* Base */
+@import 'tailwindcss/base';
+
+/* Component */
+@import 'tailwindcss/components';
+@import 'components/component.css';
+
+/* Utilities */
+/*
+  We import and compile large "taiwlindcss/utilities" in a separate file due to slow compilation process.
+  The utility file is rebuilt when something that affects it is changed e.g. the tailwind.config.js
+*/

@@ -1,5 +1,7 @@
 {
     "/dist/js/app.js": "/dist/js/app.js",
+    "/src/css/compiled-tailwind.css": "/src/css/compiled-tailwind.css",
+    "/src/css/compiled-tailwind-utilities.css": "/src/css/compiled-tailwind-utilities.css",
     "/dist/css/style.css": "/dist/css/style.css",
     "/dist/index.html": "/dist/index.html"
 }
