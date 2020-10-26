@@ -13,9 +13,14 @@ module.exports = {
     defaultLineHeights: true,
     standardFontWeights: true,
   },
-  purge: [
-    'src/**/*.html',
-  ],
+  purge: {
+    content: [
+      'src/**/*.html',
+      'src/**/*.php',
+      'src/**/*.liquid',
+      'src/**/*.js',
+    ],
+  },
   theme: {
     extend: {}
   },
