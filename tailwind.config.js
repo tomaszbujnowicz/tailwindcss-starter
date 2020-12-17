@@ -7,18 +7,12 @@
  */
 
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-    defaultLineHeights: true,
-    standardFontWeights: true,
-  },
   purge: {
     content: [
-      'src/**/*.html',
-      'src/**/*.php',
-      'src/**/*.liquid',
-      'src/**/*.js',
+      './src/**/*.html',
+      './src/**/*.php',
+      './src/**/*.liquid',
+      './src/**/*.js',
     ],
   },
   theme: {

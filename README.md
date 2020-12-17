@@ -1,21 +1,21 @@
 # Minimal Boilerplate for building static pages
 
-## 🚀 Laravel Mix, TailwindCSS with PurgeCSS
+## 🚀 Laravel Mix 6, TailwindCSS 2, PostCSS 8
 
 ### Requirements
 Make sure all dependencies have been installed before moving on:
 
-* [yarn](https://yarnpkg.com/lang/en/) or [npm](https://www.npmjs.com/get-npm)
-* [Node.js](https://nodejs.org/en/download/) >= 8.16.0
+* [yarn](https://yarnpkg.com/lang/en/)
+* [Node.js](https://nodejs.org/en/download/) >= 10
 
 ### Quick start: Installation
 Clone this repository and run
-- `yarn` or `npm install` to install dependencies
+- `yarn` to install dependencies
 
 ### Tasks
 | Task Name | Description
 | :------------- | :------------- |
-| `yarn dev` | Run all Mix tasks
+| `yarn development` | Run all Mix tasks
 | `yarn watch` | Run all Mix tasks and watch all relevant files for changes (assets unminified)
 | `yarn watch:prod` | Run all Mix tasks and watch all relevant files for changes (assets minified)
 | `yarn hot` | Hot module replacement
