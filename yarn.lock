@@ -1698,10 +1698,10 @@ browser-sync-ui@^2.26.13:
     socket.io-client "^2.0.4"
     stream-throttle "^0.1.3"
 
-browser-sync-webpack-plugin@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/browser-sync-webpack-plugin/-/browser-sync-webpack-plugin-2.2.2.tgz#46092da62ff36354a50bf0e2903e78a6974fea54"
-  integrity sha512-x92kl8LdBi4dp6YVXYqrSoDkOCOLCeBOrYSY0h9Sk1VcCDSoZC1Vc62eae6TfC2ljN4/L+aYlkzE46kirHzbgA==
+browser-sync-webpack-plugin@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/browser-sync-webpack-plugin/-/browser-sync-webpack-plugin-2.3.0.tgz#9afb96ac05ec1d8ae12ff96867dcf3972c0c53ce"
+  integrity sha512-MDvuRrTCtoL11dTdwMymo9CNJvYxJoW67gOO61cThfzHNX40S5WcBU+0bVQ86ll7r7aNpNgyzxF7RtnXMTDbyA==
   dependencies:
     lodash "^4"
 
@@ -2832,12 +2832,12 @@ engine.io@~3.2.0:
     ws "~3.3.1"
 
 enhanced-resolve@^5.3.1:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.4.0.tgz#a8bcf23b00affac9455cf71efd80844f4054f4dc"
-  integrity sha512-ZmqfWURB2lConOBM1JdCVfPyMRv5RdKWktLXO6123p97ovVm2CLBgw9t5MBj3jJWA6eHyOeIws9iJQoGFR4euQ==
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.4.1.tgz#c89b0c34f17f931902ef2913a125d4b825b49b6f"
+  integrity sha512-4GbyIMzYktTFoRSmkbgZ1LU+RXwf4AQ8Z+rSuuh1dC8plp0PPeaWvx6+G4hh4KnUJ48VoxKbNyA1QQQIUpXjYA==
   dependencies:
     graceful-fs "^4.2.4"
-    tapable "^2.0.0"
+    tapable "^2.2.0"
 
 enquirer@^2.3.5, enquirer@^2.3.6:
   version "2.3.6"
@@ -4382,10 +4382,10 @@ laravel-mix-eslint@^0.1.3:
   resolved "https://registry.yarnpkg.com/laravel-mix-eslint/-/laravel-mix-eslint-0.1.3.tgz#4dbbc6af87515e8a5b54d2a21d5226213ab64a64"
   integrity sha512-zeHC6ozjbjkU4GviS56FQeir0HeP1WN2yMT40gDWEunfaeopr+DHQvttQYFE9aobJGK6k8r89CXhCovHhuPMfQ==
 
-laravel-mix@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-6.0.0.tgz#6688bd6f557c3e5f61f0c4d25b047d814ba6f4e7"
-  integrity sha512-wmBjXEBdkttASp/bZRSHzSyR0J2XBaU7H9L4lHdlB9D5Ly+9FiJx/HBbJaZCOlnqMqLw4Lr6A6ipeuBwXV07Ww==
+laravel-mix@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-6.0.1.tgz#459f6acc61ecf7333a69a4b38f2cc3b4b5a0dbcc"
+  integrity sha512-OXfz2kCAFKBBQGVLzJ/07lRvnQQZin5MvXcuzvgOXyQurD+CP7VBGxxBE4nUhzriW9FlW9LpLUHelyeOV4NAoQ==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/plugin-proposal-object-rest-spread" "^7.12.1"
@@ -6741,7 +6741,7 @@ tailwindcss@^2.0.2:
     reduce-css-calc "^2.1.6"
     resolve "^1.19.0"
 
-tapable@^2.0.0, tapable@^2.1.1:
+tapable@^2.1.1, tapable@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-2.2.0.tgz#5c373d281d9c672848213d0e037d1c4165ab426b"
   integrity sha512-FBk4IesMV1rBxX2tfiK8RAmogtWn53puLOQlvO8XuwlgxcYbP4mVPS9Ph4aeamSyyVjOl24aYWAuc8U5kCVwMw==
