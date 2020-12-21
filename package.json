@@ -1,7 +1,7 @@
 {
   "name": "laravel-mix-tailwindcss",
   "version": "1.0.0",
-  "description": "Minimal Boilerplate for building static pages based on Laravel Mix 6, TailwindCSS 2, PostCSS 8",
+  "description": "Minimal Boilerplate for building static pages based on Laravel Mix 6, TailwindCSS 2, PostCSS 8, and ES6 Vanilla JS components.",
   "main": "index.js",
   "scripts": {
     "development": "mix",
@@ -21,10 +21,10 @@
     "browser-sync": "^2.26.13",
     "browser-sync-webpack-plugin": "2.2.2",
     "cross-env": "^7.0.3",
-    "eslint": "^7.15.0",
+    "eslint": "^7.16.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-vue": "^7.3.0",
-    "laravel-mix": "^6.0.0-beta.17",
+    "laravel-mix": "^6.0.0",
     "laravel-mix-eslint": "^0.1.3",
     "postcss": "^8.2.1",
     "postcss-import": "^14.0.0",
