@@ -4629,10 +4629,10 @@ laravel-mix-eslint@^0.2.0:
   resolved "https://registry.yarnpkg.com/laravel-mix-eslint/-/laravel-mix-eslint-0.2.0.tgz#fea6eb3e03d71baa3066e0bc751b19eb97dd8a12"
   integrity sha512-UwnaCTNaA4jRNTs8wmlXrf7QgTxdi2ZQBgKTB83bEiFCi5wqcR6svSdlfsWIXmUaySPe2Lv07SfYq9YvLXc1tA==
 
-laravel-mix@^6.0.5:
-  version "6.0.5"
-  resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-6.0.5.tgz#0403b81668e304f47f0f26ec9531c7563dd10a9a"
-  integrity sha512-ElX4SnA1yWO0BrcHpeOL/kiyJyXKHkhn2s49CeHFgZdBf1UlIaPxMwcp3R0ztiPPw2t/BXqHwjwMOSndkMMNNg==
+laravel-mix@^6.0.6:
+  version "6.0.6"
+  resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-6.0.6.tgz#f45ce20f6eb94545cc5c49ed28303cbbda8dbb7b"
+  integrity sha512-iI6H1U00XDMIjiwwqCwfxLpT5x4DZyfh4arV/2ZpLPvXu77SyIOUEe6oTAsWP5r5sf3yleNpwdKCtedoqfo1/Q==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/plugin-proposal-object-rest-spread" "^7.12.1"
@@ -6021,6 +6021,15 @@ postcss@^8.1.4, postcss@^8.1.6, postcss@^8.2.1:
   version "8.2.1"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.1.tgz#eabc5557c4558059b9d9e5b15bce7ffa9089c2a8"
   integrity sha512-RhsqOOAQzTgh1UB/IZdca7F9WDb7SUCR2Vnv1x7DbvuuggQIpoDwjK+q0rzoPffhYvWNKX5JSwS4so4K3UC6vA==
+  dependencies:
+    colorette "^1.2.1"
+    nanoid "^3.1.20"
+    source-map "^0.6.1"
+
+postcss@^8.2.2:
+  version "8.2.2"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.2.tgz#60613b62297005084fd21024a68637798864fe26"
+  integrity sha512-HM1NDNWLgglJPQQMNwvLxgH2KcrKZklKLi/xXYIOaqQB57p/pDWEJNS83PVICYsn1Dg/9C26TiejNr422/ePaQ==
   dependencies:
     colorette "^1.2.1"
     nanoid "^3.1.20"
