@@ -9,10 +9,7 @@
 module.exports = {
   purge: {
     content: [
-      './src/**/*.html',
-      './src/**/*.php',
-      './src/**/*.liquid',
-      './src/**/*.js',
+      './src/**/*.{html,php,liquid,js}',
     ],
   },
   theme: {
