@@ -4529,10 +4529,10 @@ laravel-mix-eslint@^0.2.0:
   resolved "https://registry.yarnpkg.com/laravel-mix-eslint/-/laravel-mix-eslint-0.2.0.tgz#fea6eb3e03d71baa3066e0bc751b19eb97dd8a12"
   integrity sha512-UwnaCTNaA4jRNTs8wmlXrf7QgTxdi2ZQBgKTB83bEiFCi5wqcR6svSdlfsWIXmUaySPe2Lv07SfYq9YvLXc1tA==
 
-laravel-mix@^6.0.10:
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-6.0.10.tgz#c841145ef41783f0952633132eeba3f6da321c85"
-  integrity sha512-wVWpX5I/weqUZDQpVbr3k2pvb1Of2Di/4G5UDIfDiPNOBc4WFp1fvmJV88/H/LZJBncv3VZ+7chzbYMasNzYiw==
+laravel-mix@^6.0.11:
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-6.0.11.tgz#491cb040306357035114c63fed61594880183354"
+  integrity sha512-1M5HSQ80p1e1JW64miAZnPW/Er1k2dQDYk036v58xjgVFUn7dbpFh5j1T6sAYK1tTBpRO9344uPtdruw7yjqLA==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/plugin-proposal-object-rest-spread" "^7.12.1"
