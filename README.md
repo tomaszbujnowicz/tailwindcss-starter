@@ -17,7 +17,7 @@ Clone this repository and run
 | :------------- | :------------- |
 | `yarn development` | Run all Mix tasks
 | `yarn watch` | Run all Mix tasks and watch all relevant files for changes (assets unminified)
-| `yarn watch:prod` | Run all Mix tasks and watch all relevant files for changes (assets minified)
+| `yarn watch-production` | Run all Mix tasks and watch all relevant files for changes (NODE_ENV=production / assets minified)
 | `yarn hot` | Hot module replacement
 | `yarn production` | Run all Mix tasks and minify output
 
