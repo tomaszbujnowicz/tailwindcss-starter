@@ -21,14 +21,14 @@
     "browser-sync": "^2.26.14",
     "browser-sync-webpack-plugin": "2.3.0",
     "cross-env": "^7.0.3",
-    "eslint": "^7.21.0",
-    "eslint-plugin-vue": "^7.7.0",
+    "eslint": "^7.22.0",
+    "eslint-plugin-vue": "^7.8.0",
     "eslint-webpack-plugin": "^2.5.2",
     "laravel-mix": "^6.0.13",
     "laravel-mix-eslint": "^0.2.0",
     "postcss": "^8.2.8",
     "postcss-import": "^14.0.0",
     "postcss-nested": "^5.0.5",
-    "tailwindcss": "^2.0.3"
+    "tailwindcss": "^2.0.4"
   }
 }
