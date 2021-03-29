@@ -1,5 +1,6 @@
 const mix = require('laravel-mix');
 require('laravel-mix-eslint');
+require('@tailwindcss/jit');
 
 mix
 
@@ -9,7 +10,7 @@ mix
   // CSS
   .postCss('./src/css/style.css', './dist/css/style.css', [
     require('postcss-import'),
-    require('tailwindcss'),
+    require('@tailwindcss/jit'),
     require('postcss-nested'),
   ])
 
