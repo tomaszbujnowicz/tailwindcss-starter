@@ -24,12 +24,12 @@
     "eslint": "^7.23.0",
     "eslint-plugin-vue": "^7.8.0",
     "eslint-webpack-plugin": "^2.5.3",
-    "laravel-mix": "^6.0.13",
+    "laravel-mix": "^6.0.16",
     "laravel-mix-eslint": "^0.2.0",
-    "postcss": "^8.2.8",
-    "postcss-import": "^14.0.0",
+    "postcss": "^8.2.9",
+    "postcss-import": "^14.0.1",
     "postcss-nested": "^5.0.5",
     "tailwindcss": "^2.0.4",
-    "@tailwindcss/jit": "^0.1.17"
+    "@tailwindcss/jit": "^0.1.18"
   }
 }
