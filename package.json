@@ -6,7 +6,6 @@
   "scripts": {
     "development": "mix",
     "watch": "mix watch",
-    "watch-production": "NODE_ENV=production mix watch",
     "watch-poll": "mix watch -- --watch-options-poll=1000",
     "hot": "mix watch --hot",
     "production": "mix --production"
@@ -29,7 +28,6 @@
     "postcss": "^8.2.9",
     "postcss-import": "^14.0.1",
     "postcss-nested": "^5.0.5",
-    "tailwindcss": "^2.0.4",
-    "@tailwindcss/jit": "^0.1.18"
+    "tailwindcss": "^2.1.1"
   }
 }

@@ -7,6 +7,7 @@
  */
 
 module.exports = {
+  mode: 'jit',
   purge: {
     content: [
       './src/**/*.{html,php,liquid,js}',
