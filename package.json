@@ -20,14 +20,14 @@
     "browser-sync": "^2.26.14",
     "browser-sync-webpack-plugin": "2.3.0",
     "cross-env": "^7.0.3",
-    "eslint": "^7.25.0",
-    "eslint-plugin-vue": "^7.9.0",
+    "eslint": "^7.28.0",
+    "eslint-plugin-vue": "^7.11.1",
     "eslint-webpack-plugin": "^2.5.4",
-    "laravel-mix": "^6.0.18",
+    "laravel-mix": "^6.0.19",
     "laravel-mix-eslint": "^0.2.0",
-    "postcss": "^8.2.12",
-    "postcss-import": "^14.0.1",
+    "postcss": "^8.3.3",
+    "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.5",
-    "tailwindcss": "^2.1.2"
+    "tailwindcss": "^2.1.4"
   }
 }
