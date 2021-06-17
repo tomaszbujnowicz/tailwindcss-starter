@@ -23,9 +23,9 @@
     "eslint": "^7.28.0",
     "eslint-plugin-vue": "^7.11.1",
     "eslint-webpack-plugin": "^2.5.4",
-    "laravel-mix": "^6.0.19",
+    "laravel-mix": "^6.0.20",
     "laravel-mix-eslint": "^0.2.0",
-    "postcss": "^8.3.3",
+    "postcss": "^8.3.5",
     "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.5",
     "tailwindcss": "^2.1.4"
