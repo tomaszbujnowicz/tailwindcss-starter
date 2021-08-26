@@ -23,7 +23,7 @@
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^7.16.0",
     "eslint-webpack-plugin": "^3.0.1",
-    "laravel-mix": "^6.0.27",
+    "laravel-mix": "^6.0.28",
     "laravel-mix-eslint": "^0.2.0",
     "postcss": "^8.3.6",
     "postcss-import": "^14.0.2",
