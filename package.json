@@ -17,17 +17,17 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.27.6",
+    "browser-sync": "^2.27.7",
     "browser-sync-webpack-plugin": "2.3.0",
     "cross-env": "^7.0.3",
-    "eslint": "^8.1.0",
-    "eslint-plugin-vue": "^7.20.0",
-    "eslint-webpack-plugin": "^3.0.1",
-    "laravel-mix": "^6.0.34",
+    "eslint": "^8.2.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "eslint-webpack-plugin": "^3.1.0",
+    "laravel-mix": "^6.0.38",
     "laravel-mix-eslint": "^0.2.0",
     "postcss": "^8.3.11",
     "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.6",
-    "tailwindcss": "^2.2.17"
+    "tailwindcss": "^2.2.19"
   }
 }
