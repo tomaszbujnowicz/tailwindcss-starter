@@ -1,6 +1,6 @@
 # Minimal Boilerplate for building static pages.
 
-## 🚀 Laravel Mix 6, TailwindCSS 2, PostCSS 8, and ES6 Vanilla JS components.
+## 🚀 Laravel Mix 6, TailwindCSS 3, PostCSS 8, and ES6 Vanilla JS components.
 
 ### Requirements
 Make sure all dependencies have been installed before moving on:

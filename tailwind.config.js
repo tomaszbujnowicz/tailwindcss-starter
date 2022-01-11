@@ -7,15 +7,10 @@
  */
 
 module.exports = {
-  mode: 'jit',
-  purge: {
-    content: [
-      './src/**/*.{html,php,liquid,js}',
-    ],
-  },
+  content: [
+    './src/**/*.{html,php,liquid,js,vue}',
+  ],
   theme: {
     extend: {}
   },
-  variants: {},
-  plugins: [],
 }
