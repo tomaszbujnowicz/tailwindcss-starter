@@ -1,7 +1,7 @@
 {
-  "name": "laravel-mix-tailwindcss",
+  "name": "tailwindcss-starter",
   "version": "1.0.0",
-  "description": "Minimal Boilerplate for building static pages based on Laravel Mix 6, TailwindCSS 3, PostCSS 8, and ES6 Vanilla JS components.",
+  "description": "TailwindCSS starter. Minimal Boilerplate for building static pages based on Laravel Mix 6, TailwindCSS 3, PostCSS 8, and ES6 Vanilla JS components.",
   "main": "index.js",
   "scripts": {
     "development": "mix",
